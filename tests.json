@@ -41,5 +41,44 @@
         "SEMICOLON"
       ]
     ]
+  },
+  {
+  "23a7e63962253216999dce6cfe49b7a4": {
+    "stringTests": [
+      "const",
+      "iTime",
+      "setup",
+      "pinMode",
+      "loop",
+      "digitalWrite",
+      "delay"
+    ],
+    "chainTests": [
+      [
+        "WORD",
+        "TYPE",
+        "WORD",
+        "ASSIGN",
+        "NUMBER",
+        "SEMICOLON"
+      ],
+      [
+        "WORD",
+        "LP",
+        "NUMBER",
+        "COMMA",
+        "HEX_NUMBER",
+        "RP",
+        "SEMICOLON"
+      ],
+      [
+        "WORD",
+        "LP",
+        "WORD",
+        "RP",
+        "SEMICOLON"
+      ]
+    ]
   }
+}
 }
