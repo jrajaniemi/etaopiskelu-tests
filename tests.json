@@ -42,7 +42,6 @@
       ]
     ]
   },
-  {
   "23a7e63962253216999dce6cfe49b7a4": {
     "stringTests": [
       "const",
@@ -53,7 +52,7 @@
       "digitalWrite",
       "delay"
     ],
-    "chainTests": [
+    "chainTest": [
       [
         "WORD",
         "TYPE",
@@ -81,4 +80,4 @@
     ]
   }
 }
-}
+
