@@ -1,47 +1,4 @@
 {
-  "f7f3275eb5704b1a00f665f767b97c2c": {
-    "stringTests": ["setup", "loop", "ledPin", "pinMode", "inPin"],
-    "chainTest": [
-      ["TYPE", "WORD", "ASSIGN", "NUMBER", "SEMICOLON"],
-      [
-        "TYPE",
-        "WORD",
-        "LP",
-        "RP",
-        "LCB",
-        "WORD",
-        "LP",
-        "WORD",
-        "COMMA",
-        "NUMBER",
-        "WORD",
-        "NUMBER",
-        "RP",
-        "SEMICOLON"
-      ]
-    ]
-  },
-  "f7f3275eb5704b1a00f665f767b97c2b": {
-    "stringTests": ["setup", "loop", "ledPin", "pinMode", "inPin"],
-    "chainTest": [
-      ["TYPE", "WORD", "ASSIGN", "NUMBER", "SEMICOLON"],
-      [
-        "TYPE",
-        "WORD",
-        "LP",
-        "RP",
-        "WORD",
-        "LP",
-        "WORD",
-        "COMMA",
-        "NUMBER",
-        "WORD",
-        "NUMBER",
-        "RP",
-        "SEMICOLON"
-      ]
-    ]
-  },
   "23a7e63962253216999dce6cfe49b7a4": {
     "stringTests": [
       "const",
@@ -53,31 +10,123 @@
       "delay"
     ],
     "chainTest": [
-      [
-        "WORD",
-        "TYPE",
-        "WORD",
-        "ASSIGN",
-        "NUMBER",
-        "SEMICOLON"
-      ],
+      ["WORD", "TYPE", "WORD", "ASSIGN", "NUMBER", "SEMICOLON"],
+      ["WORD", "LP", "NUMBER", "COMMA", "HEX_NUMBER", "RP", "SEMICOLON"],
+      ["WORD", "LP", "WORD", "RP", "SEMICOLON"]
+    ]
+  },
+  "5f9a721e0b0d5a8c81a0c6f5a5b13591": {
+    "stringTests": ["setup", "pinMode", "loop", "digitalWrite", "delay", "300"],
+    "chainTest": [
+      ["WORD", "LP", "NUMBER", "COMMA", "HEX_NUMBER", "RP", "SEMICOLON"],
+      ["WORD", "LP", "NUMBER", "RP", "SEMICOLON"]
+    ]
+  },
+  "73460f64ee54d14b0daf15016f77da22": {
+    "stringTests": [
+      "setup",
+      "pinMode",
+      "loop",
+      "digitalWrite",
+      "delay",
+      "2",
+      "3",
+      "4"
+    ],
+    "chainTest": [
+      ["WORD", "LP", "NUMBER", "COMMA", "HEX_NUMBER", "RP", "SEMICOLON"],
+      ["WORD", "LP", "NUMBER", "RP", "SEMICOLON"]
+    ]
+  },
+  "53bdbddf6d12c1e22cdefb9939c4473a": {
+    "stringTests": [
+      "nappi",
+      "valo",
+      "napinTila",
+      "setup",
+      "pinMode",
+      "loop",
+      "digitalRead",
+      "if",
+      "digitalWrite",
+      "else"
+    ],
+    "chainTest": [
+      ["TYPE", "WORD", "ASSIGN", "NUMBER", "SEMICOLON"],
+      ["TYPE", "WORD", "NUMBER", "ASSIGN", "NUMBER", "SEMICOLON"],
       [
         "WORD",
         "LP",
+        "WORD",
         "NUMBER",
         "COMMA",
         "HEX_NUMBER",
         "RP",
         "SEMICOLON"
       ],
+      ["WORD", "LP", "WORD", "COMMA", "HEX_NUMBER", "RP", "SEMICOLON"],
+      ["EOL", "WORD", "ASSIGN", "WORD", "LP", "WORD", "RP", "SEMICOLON"]
+    ]
+  },
+  "63ea2d74dc1074b64de2bb937f430907": {
+    "stringTests": [
+      "setup",
+      "pinMode",
+      "Serial",
+      "begin",
+      "loop",
+      "digitalWrite",
+      "println",
+      "delay"
+    ],
+    "chainTest": [
+      ["WORD", "LP", "NUMBER", "COMMA", "HEX_NUMBER", "RP", "SEMICOLON"],
+      ["WORD", "MA", "WORD", "LP", "NUMBER", "RP", "SEMICOLON"],
+      ["WORD", "MA", "WORD", "LP", "STRING", "RP", "SEMICOLON"],
+      ["WORD", "LP", "NUMBER", "RP", "SEMICOLON"]
+    ]
+  },
+  "6f1621ddcb943dbcd8ff234603cd49c3": {
+    "stringTests": [
+      "ledipinni",
+      "keskeytyspinni",
+      "laskuri",
+      "setup",
+      "pinMode",
+      "Serial",
+      "begin",
+      "attachInterrupt",
+      "digitalPinToInterrupt",
+      "palaako",
+      "loop",
+      "print",
+      "println",
+      "if",
+      "digitalWrite",
+      "else"
+    ],
+    "chainTest": [
+      ["TYPE", "WORD", "ASSIGN", "NUMBER", "SEMICOLON"],
+      ["WORD", "LP", "WORD", "COMMA", "HEX_NUMBER", "RP", "SEMICOLON"],
+      ["WORD", "MA", "WORD", "LP", "NUMBER", "RP", "SEMICOLON"],
       [
         "WORD",
         "LP",
         "WORD",
+        "LP",
+        "WORD",
+        "RP",
+        "COMMA",
+        "WORD",
+        "COMMA",
+        "NUMBER",
         "RP",
         "SEMICOLON"
-      ]
+      ],
+      ["WORD", "SEMICOLON"],
+      ["WORD", "MA", "WORD", "LP", "STRING", "RP", "SEMICOLON"],
+      ["WORD", "MA", "WORD", "LP", "WORD", "RP", "SEMICOLON"],
+      ["WORD", "LP", "WORD", "COMMA", "HEX_NUMBER", "RP", "SEMICOLON"]
     ]
   }
 }
-
