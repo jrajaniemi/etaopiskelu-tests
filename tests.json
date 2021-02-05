@@ -15,7 +15,7 @@
       ["WORD", "LP", "WORD", "RP", "SEMICOLON"]
     ]
   },
-  
+
   "5f9a721e0b0d5a8c81a0c6f5a5b13591": {
     "stringTests": ["setup", "pinMode", "loop", "digitalWrite", "delay", "300"],
     "chainTest": [
