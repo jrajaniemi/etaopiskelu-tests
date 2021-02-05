@@ -128,5 +128,60 @@
       ["WORD", "MA", "WORD", "LP", "WORD", "RP", "SEMICOLON"],
       ["WORD", "LP", "WORD", "COMMA", "HEX_NUMBER", "RP", "SEMICOLON"]
     ]
+  },
+  "5ddc751ff3e082ca24380a2a7b2481d8": {
+    "stringTests": [
+      "button1Pin",
+      "state",
+      "sensorPin",
+      "avgADC",
+      "sensorVal",
+      "LT",
+      "setup",
+      "Serial",
+      "begin",
+      "pinMode",
+      "attachInterrupt",
+      "digitalPinToInterrupt",
+      "analogRead",
+      "delay",
+      "loop"
+    ],
+    "chainTest": [
+      ["DEFINE", "WORD", "WORD"],
+      ["TYPE", "WORD", "ASSIGN", "HEX_NUMBER", "SEMICOLON"],
+      ["TYPE", "WORD", "ASSIGN", "WORD", "SEMICOLON"],
+      ["TYPE", "WORD", "ASSIGN", "WORD", "MA", "WORD", "SEMICOLON"],
+      ["WORD", "MA", "WORD", "LP", "WORD", "RP", "SEMICOLON"],
+      ["WORD", "LP", "WORD", "COMMA", "HEX_NUMBER", "RP", "SEMICOLON"],
+      [
+        "WORD",
+        "LP",
+        "WORD",
+        "LP",
+        "WORD",
+        "RP",
+        "COMMA",
+        "WORD",
+        "COMMA",
+        "WORD",
+        "RP",
+        "SEMICOLON"
+      ],
+      ["WORD", "ASSIGN", "WORD", "LP", "WORD", "RP", "SEMICOLON"],
+      [
+        "WORD",
+        "ASSIGN",
+        "WORD",
+        "ADDITION",
+        "WORD",
+        "LP",
+        "WORD",
+        "RP",
+        "SEMICOLON"
+      ],
+      ["WORD", "LP", "WORD", "RP", "SEMICOLON"],
+      ["WORD", "MA", "WORD", "LP", "STRING", "RP", "SEMICOLON"]
+    ]
   }
 }
