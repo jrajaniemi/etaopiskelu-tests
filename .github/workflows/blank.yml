@@ -14,4 +14,4 @@ jobs:
         port: ${{ secrets.PORT }}
         key: ${{ secrets.KEY }}
         source: "tests.json"
-        target: "~/etaopiskelu/deno/"
+        target: "etaopiskelu/deno/"
