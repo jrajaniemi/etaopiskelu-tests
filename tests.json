@@ -41,7 +41,9 @@
   "53bdbddf6d12c1e22cdefb9939c4473a": {
     "stringTests": [
       "nappi",
-      "valo",
+      "valo1",
+      "valo2",
+      "valo3",
       "napinTila",
       "setup",
       "pinMode",
@@ -53,19 +55,8 @@
     ],
     "chainTest": [
       ["TYPE", "WORD", "ASSIGN", "NUMBER", "SEMICOLON"],
-      ["TYPE", "WORD", "NUMBER", "ASSIGN", "NUMBER", "SEMICOLON"],
-      [
-        "WORD",
-        "LP",
-        "WORD",
-        "NUMBER",
-        "COMMA",
-        "HEX_NUMBER",
-        "RP",
-        "SEMICOLON"
-      ],
       ["WORD", "LP", "WORD", "COMMA", "HEX_NUMBER", "RP", "SEMICOLON"],
-      ["EOL", "WORD", "ASSIGN", "WORD", "LP", "WORD", "RP", "SEMICOLON"]
+      ["WORD", "ASSIGN", "WORD", "LP", "WORD", "RP", "SEMICOLON"]
     ]
   },
   "63ea2d74dc1074b64de2bb937f430907": {
@@ -123,10 +114,9 @@
         "RP",
         "SEMICOLON"
       ],
-      ["WORD", "SEMICOLON"],
+      ["WORD", "INCREMENT", "SEMICOLON"],
       ["WORD", "MA", "WORD", "LP", "STRING", "RP", "SEMICOLON"],
-      ["WORD", "MA", "WORD", "LP", "WORD", "RP", "SEMICOLON"],
-      ["WORD", "LP", "WORD", "COMMA", "HEX_NUMBER", "RP", "SEMICOLON"]
+      ["WORD", "MA", "WORD", "LP", "WORD", "RP", "SEMICOLON"]
     ]
   },
   "5ddc751ff3e082ca24380a2a7b2481d8": {
@@ -148,11 +138,14 @@
       "loop"
     ],
     "chainTest": [
-      ["DEFINE", "WORD", "WORD"],
+      ["DEFINE", "WORD", "NUMBER"],
       ["TYPE", "WORD", "ASSIGN", "HEX_NUMBER", "SEMICOLON"],
-      ["TYPE", "WORD", "ASSIGN", "WORD", "SEMICOLON"],
-      ["TYPE", "WORD", "ASSIGN", "WORD", "MA", "WORD", "SEMICOLON"],
-      ["WORD", "MA", "WORD", "LP", "WORD", "RP", "SEMICOLON"],
+      ["WORD", "TYPE", "WORD", "ASSIGN", "WORD", "SEMICOLON"],
+      ["TYPE", "WORD", "ASSIGN", "NUMBER", "SEMICOLON"],
+
+      ["TYPE", "WORD", "ASSIGN", "NUMBER", "MA", "NUMBER", "SEMICOLON"],
+
+      ["WORD", "MA", "WORD", "LP", "NUMBER", "RP", "SEMICOLON"],
       ["WORD", "LP", "WORD", "COMMA", "HEX_NUMBER", "RP", "SEMICOLON"],
       [
         "WORD",
@@ -164,7 +157,7 @@
         "COMMA",
         "WORD",
         "COMMA",
-        "WORD",
+        "NUMBER",
         "RP",
         "SEMICOLON"
       ],
@@ -180,8 +173,32 @@
         "RP",
         "SEMICOLON"
       ],
-      ["WORD", "LP", "WORD", "RP", "SEMICOLON"],
-      ["WORD", "MA", "WORD", "LP", "STRING", "RP", "SEMICOLON"]
+      ["WORD", "LP", "NUMBER", "RP", "SEMICOLON"],
+      ["WORD", "ASSIGN", "WORD", "DIVISION", "NUMBER", "SEMICOLON"],
+      [
+        "WORD",
+        "ASSIGN",
+        "LP",
+        "LP",
+        "NUMBER",
+        "P",
+        "WORD",
+        "DIVISION",
+        "NUMBER",
+        "MA",
+        "NUMBER",
+        "RP",
+        "SUBTRACTION",
+        "NUMBER",
+        "MA",
+        "NUMBER",
+        "RP",
+        "P",
+        "NUMBER",
+        "SEMICOLON"
+      ],
+      ["WORD", "MA", "WORD", "LP", "STRING", "RP", "SEMICOLON"],
+      ["WORD", "MA", "WORD", "LP", "WORD", "RP", "SEMICOLON"]
     ]
   }
 }
