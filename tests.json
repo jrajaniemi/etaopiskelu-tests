@@ -28,10 +28,7 @@
       "pinMode",
       "loop",
       "digitalWrite",
-      "delay",
-      "2",
-      "3",
-      "4"
+      "delay"
     ],
     "chainTest": [
       ["WORD", "LP", "NUMBER", "COMMA", "HEX_NUMBER", "RP", "SEMICOLON"],
@@ -71,10 +68,8 @@
       "delay"
     ],
     "chainTest": [
-      ["WORD", "LP", "NUMBER", "COMMA", "HEX_NUMBER", "RP", "SEMICOLON"],
       ["WORD", "MA", "WORD", "LP", "NUMBER", "RP", "SEMICOLON"],
-      ["WORD", "MA", "WORD", "LP", "STRING", "RP", "SEMICOLON"],
-      ["WORD", "LP", "NUMBER", "RP", "SEMICOLON"]
+      ["WORD", "MA", "WORD", "LP", "STRING", "RP", "SEMICOLON"]
     ]
   },
   "6f1621ddcb943dbcd8ff234603cd49c3": {
